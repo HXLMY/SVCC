@@ -139,7 +139,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 10px 0 10px 30px; */
+  padding: 10px 0 10px 30px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   color: #000000;
@@ -154,7 +154,7 @@ h6 {
 }
 .navbar a:hover {
   color: #fff;
-  background-color: #ff0000;
+  /* background-color: #ff0000; */
 }
 .navbar .active,
 .navbar .active:focus,
@@ -316,14 +316,14 @@ section {
 /*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
-.team {
+.webinar {
   background-color: #16354f;
   /* background: url("/SVCC/assets/img/background/pasarterapung.png"); */
   background-size: cover;
   padding: 60px 0;
   position: relative;
 }
-.team::before {
+.webinar::before {
   content: "";
   position: absolute;
   left: 0;
@@ -333,19 +333,19 @@ section {
   background: rgba(255, 255, 255, 0.75);
   z-index: 9;
 }
-.team .container {
+.webinar .container {
   position: relative;
   z-index: 10;
 }
-.team .member {
+.webinar .member {
   text-align: left;
   margin-bottom: 80px;
   position: relative;
 }
-.team .member .pic {
+.webinar .member .pic {
   overflow: hidden;
 }
-.team .member .member-info {
+.webinar .member .member-info {
   position: absolute;
   top: 85%;
   left: 20px;
@@ -358,10 +358,10 @@ section {
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
-.team .member:hover .member-info {
+.webinar .member:hover .member-info {
   max-height: 300px;
 }
-.team .member h4 {
+.webinar .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -369,7 +369,7 @@ section {
   position: relative;
   padding-bottom: 10px;
 }
-.team .member h4::after {
+.webinar .member h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -379,30 +379,75 @@ section {
   bottom: 0;
   left: calc(50% - 25px);
 }
-.team .member span {
+.webinar .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
-.team .member .social {
+.webinar .member .social {
   margin-top: 15px;
 }
-.team .member .social a {
+.webinar .member .social a {
   transition: color 0.3s;
   color: #627680;
 }
-.team .member .social a:hover {
+.webinar .member .social a:hover {
   color: #009cea;
 }
-.team .member .social i {
+.webinar .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
 @media (max-width: 1000px) {
-  .team .member {
+  .webinar .member {
     margin-bottom: 110px;
   }
 }
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/cta-bg.jpg") center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+.cta h3 {
+  color: #364146;
+  font-size: 28px;
+  font-weight: 700;
+}
+.cta p {
+  color: #576971;
+}
+.cta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #009cea;
+}
+.cta .cta-btn:hover {
+  background: #008bd1;
+}
+@media (min-width: 1024px) {
+  .cta {
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 769px) {
+  .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
 /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
