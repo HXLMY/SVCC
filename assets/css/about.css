@@ -23,8 +23,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-    # Back to top button
-    --------------------------------------------------------------*/
+        # Back to top button
+        --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -53,16 +53,16 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-    # Disable AOS delay on mobile
-    --------------------------------------------------------------*/
+        # Disable AOS delay on mobile
+        --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
+      # Header
+      --------------------------------------------------------------*/
 #header {
   height: 72px;
   transition: all 0.5s;
@@ -93,8 +93,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-    # Header Social Links
-    --------------------------------------------------------------*/
+        # Header Social Links
+        --------------------------------------------------------------*/
 .header-social-links {
   margin: 0 0 0 30px;
 }
@@ -115,11 +115,11 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-    # Navigation Menu
-    --------------------------------------------------------------*/
+        # Navigation Menu
+        --------------------------------------------------------------*/
 /**
-    * Desktop Navigation 
-    */
+        * Desktop Navigation 
+        */
 .navbar {
   padding: 0;
   margin: 0;
@@ -163,8 +163,8 @@ h6 {
 }
 
 /**
-    * Mobile Navigation 
-    */
+        * Mobile Navigation 
+        */
 .mobile-nav-toggle {
   color: #000;
   font-size: 28px;
@@ -285,8 +285,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Sections General
-  --------------------------------------------------------------*/
+      # Sections General
+      --------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -298,7 +298,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .section-title h2 {
   font-size: 32px;
@@ -312,18 +312,24 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+.about {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
 
 /*--------------------------------------------------------------
-  # Team
-  --------------------------------------------------------------*/
-.webinar {
+      # Team
+      --------------------------------------------------------------*/
+.konsul {
   background-color: #16354f;
   /* background: url("/SVCC/assets/img/background/pasarterapung.png"); */
   background-size: cover;
   padding: 60px 0;
   position: relative;
 }
-.webinar::before {
+.konsul::before {
   content: "";
   position: absolute;
   left: 0;
@@ -333,19 +339,19 @@ section {
   background: rgba(255, 255, 255, 0.75);
   z-index: 9;
 }
-.webinar .container {
+.konsul .container {
   position: relative;
   z-index: 10;
 }
-.webinar .member {
+.konsul .member {
   text-align: left;
   margin-bottom: 80px;
   position: relative;
 }
-.webinar .member .pic {
+.konsul .member .pic {
   overflow: hidden;
 }
-.webinar .member .member-info {
+.konsul .member .member-info {
   position: absolute;
   top: 85%;
   left: 20px;
@@ -358,10 +364,10 @@ section {
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
-.webinar .member:hover .member-info {
+.konsul .member:hover .member-info {
   max-height: 300px;
 }
-.webinar .member h4 {
+.konsul .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -369,7 +375,7 @@ section {
   position: relative;
   padding-bottom: 10px;
 }
-.webinar .member h4::after {
+.konsul .member h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -379,41 +385,33 @@ section {
   bottom: 0;
   left: calc(50% - 25px);
 }
-.webinar .member span {
+.konsul .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
-.webinar .member .social {
+.konsul .member .social {
   margin-top: 15px;
 }
-.webinar .member .social a {
+.konsul .member .social a {
   transition: color 0.3s;
   color: #627680;
 }
-.webinar .member .social a:hover {
+.konsul .member .social a:hover {
   color: #009cea;
 }
-.webinar .member .social i {
+.konsul .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
 @media (max-width: 1000px) {
-  .webinar .member {
+  .konsul .member {
     margin-bottom: 110px;
   }
 }
-
-.order {
-  color: #000;
-}
-
-.order :hover {
-  color: black;
-}
 /*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
+    # Cta
+    --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/cta-bg.jpg") center center;
   background-size: cover;
@@ -457,8 +455,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Footer
-  --------------------------------------------------------------*/
+      # Footer
+      --------------------------------------------------------------*/
 #footer {
   background: #f7f8f9;
   padding: 0 0 30px 0;
