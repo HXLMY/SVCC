@@ -82,37 +82,52 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Apa yang anda butuhkan?</h2>
-         </div>
+        </div>
 
-        <div class="row" style="background-color: white;">
-            <div class="mb-3 sm-7">
-                <label for="nama" style="font-weight: bold; font-size: 24px; ">Nama<span style="color: red;">*</span></label><br>
-                <input type="text" name="nama" id="nama" class="form-control" required >
+        <div class="card p-5">
+          <form id="my-form" method="POST"
+            action="https://script.google.com/macros/s/AKfycbzTxrt1Jj77cv_qAHTrhaV-lJw1WXaVrZ1nbj2e7ePjlMT-ZDNCeMODR0OAZqg-9Kktcw/exec">
+            <div class="row">
+              <div class="col-sm">
+                <div class="mb-3 sm-7">
+                  <label for="nama" style="font-weight: bold; font-size: 20px; ">Nama<span
+                      style="color: red;">*</span></label><br>
+                  <input type="text" name="Nama" id="Nama" class="form-control" required>
+                </div>
               </div>
-              <div class="mb-3 sm-7">
-                <label for="email" style="font-weight: bold; font-size: 24px; ">E-Mail<span style="color: red;">*</span></label><br>
-                <input type="email" name="email" id="email" class="form-control" required >
+              <div class="col-sm">
+                <div class="mb-3 sm-7">
+                  <label for="email" style="font-weight: bold; font-size: 20px; ">E-Mail<span
+                      style="color: red;">*</span></label><br>
+                  <input type="email" name="Email" id="Email" class="form-control" required>
+                </div>
               </div>
-              <div class="mb-3 sm-7">
-                <label for="telp" style="font-weight: bold; font-size: 24px; ">Nomor Telepon<span style="color: red;">*</span></label><br>
-                <input type="number" name="telp" id="telp" class="form-control" required >
+              <div class="col-md">
+                <div class="mb-3 sm-7">
+                  <label for="telp" style="font-weight: bold; font-size: 20px; ">Nomor Telepon<span
+                      style="color: red;">*</span></label><br>
+                  <input type="number" name="Telp" id="Telp" class="form-control" required>
+                </div>
               </div>
-              <div class="mb-3 sm-7">
-                <label for="story" style="font-weight: bold; font-size: 24px; ">Ceritakan tentang yang akan anda lakukan<span style="color: red;">*</span></label><br>
-                <input type="text" name="story" id="story" class="form-control" required >
-              </div>
-              <div class="mb-3 sm-7">
-                <label for="harapan" style="font-weight: bold; font-size: 24px; ">Apa harapan anda jika memakai virtual expo? <span style="color: red;">*</span></label><br>
-                <input type="text" name="harapan" id="harapan" class="form-control" required >  
-              </div>
-              <button type="submit" class="btn btn-secondary" name="submit" style="font-weight: bold;">Kirim</button>
-              <br>
-              <p>atau hubungi kami langsung melalui svccborneo@gmail.com</p>
             </div>
-            
+            <div class="mb-3 sm-7">
+              <label for="story" style="font-weight: bold; font-size: 20px; ">Ceritakan tentang yang akan anda
+                lakukan<span style="color: red;">*</span></label><br>
+              <textarea rows="5" type="text" name="Story" id="Story" class="form-control" required></textarea>
+            </div>
+            <div class="mb-3 sm-7">
+              <label for="harapan" style="font-weight: bold; font-size: 20px; ">Apa harapan anda jika memakai virtual
+                expo? <span style="color: red;">*</span></label><br>
+              <textarea rows="5" type="text" name="Harapan" id="Harapan" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary mb-2" name="submit" style="font-weight: bold;">Kirim</button>
+            <br>
+            <p>atau hubungi kami langsung melalui svccborneo@gmail.com</p>
+          </form>
+        </div>
       </div>
     </section>
-    
+
     <!-- End Team Section -->
  <!-- ======= Cta Section ======= -->
  <section id="cta" class="cta">
