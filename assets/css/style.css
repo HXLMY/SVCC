@@ -381,9 +381,12 @@ section {
   margin-top: 40px;
 }
 .about .container {
-  background-color: #5d7095;
+  /* background: url("/SVCC/assets/img/background/pasarterapung.png"); */
+
+  background-color: #5d70958e;
   padding: 60px 50px;
-  color: rgb(0, 0, 0);
+  color: #364146;
+  font-weight: bold;
 }
 @media (max-width: 992px) {
   .about .container {
@@ -391,9 +394,9 @@ section {
   }
 }
 .about .content h3 {
-  font-weight: 400;
+  /* font-weight: bold; */
   font-size: 32px;
-  color: #ffffff;
+  color: #364146;
   font-family: "Poppins", sans-serif;
 }
 .about .content ul {
