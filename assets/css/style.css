@@ -11,15 +11,16 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  /* background-color: #00c4cc; */
 }
 
 a {
-  color: #009cea;
+  color: #442f1e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1eb4ff;
+  color: #442f1e;
   text-decoration: none;
 }
 
@@ -42,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #009cea;
+  background: #442f1e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -54,7 +55,7 @@ h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #14b1ff;
+  background: #442f1e;
   color: #fff;
 }
 .back-to-top.active {
@@ -121,7 +122,7 @@ h6 {
   padding-left: 10px;
 }
 .header-social-links a:hover {
-  color: #009cea;
+  color: #442f1e;
 }
 
 /*--------------------------------------------------------------
@@ -165,7 +166,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #009cea;
+  color: #442f1e;
 }
 .navbar .dropdown ul {
   display: block;
@@ -195,7 +196,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #009cea;
+  color: #442f1e;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -323,10 +324,11 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-image: url("../img/hero-bg.png");
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/feed\ ig.jpg") center center;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
+  /* background-size: contain; */
+  /* background-position: right top; */
   margin-top: 70px;
   padding: 60px 0;
 }
@@ -521,7 +523,8 @@ section {
   position: relative;
   overflow: hidden;
   margin: 0;
-  background: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0.349), rgba(255, 255, 255, 0.377)), url("../img/feed\ ig.jpg") center center;
+  background-size: cover; /* background: url(../img/feed\ ig.jpg); */
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
@@ -542,7 +545,7 @@ section {
   font-size: 18px;
 }
 .services .title a {
-  color: #111;
+  color: white;
 }
 .services .description {
   font-size: 15px;
@@ -743,7 +746,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/feed\ ig.jpg") center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -859,7 +862,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background-color: #16354f;
+  /* background-color: #16354f; */
   /* background: url("/SVCC/assets/img/background/pasarterapung.png"); */
   background-size: cover;
   padding: 60px 0;
@@ -872,7 +875,8 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+  background: linear-gradient(rgba(255, 255, 255, 0.349), rgba(255, 255, 255, 0.377)), url("../img/feed\ ig.jpg") center center;
+  background-size: cover; /* background: rgba(255, 255, 255, 0.75); */
   z-index: 9;
 }
 .team .container {
@@ -892,7 +896,9 @@ section {
   top: 85%;
   left: 20px;
   right: 20px;
-  background: #1d5663;
+  background: linear-gradient(rgba(255, 255, 255, 0.349), rgba(255, 255, 255, 0.377)), url("../img/feed\ ig.jpg") center center;
+  background-size: cover;
+  /* background: #1d5663; */
   padding: 20px 0;
   color: #ffffff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1184,13 +1190,13 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #009cea;
+  background: #442f1e;
   color: #fff;
 }
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #009cea;
+  background: #442f1e;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1253,7 +1259,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type="submit"] {
-  background: #009cea;
+  background: #442f1e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1261,7 +1267,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-  background: #1eb4ff;
+  background: #442f1e;
 }
 @-webkit-keyframes animate-loading {
   0% {
