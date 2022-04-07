@@ -67,7 +67,7 @@ if (isset($_POST["login"])){
               </div>
               <div class="form-row mb-4">
                 <div class="col-lg-7">
-                  <button class="btn btn p-2" type="submit" name="login" id="login"><a href="https://www.artsteps.com/curate/62477c45893419c76bfc210b/3">LOGIN</a></button>
+                  <button class="btn btn p-2" type="submit" name="login" id="login"><a href="../web Webinar.html">LOGIN</a></button>
                   <p class="text-center mt-3">
                     Don't have an account? Register <a href="./registrasi.html">here.</a>
                     <!-- <a href="registrasi.php">here.</a> -->
