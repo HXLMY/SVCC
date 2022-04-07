@@ -25,7 +25,7 @@ if (isset($_POST["register"])){
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleForms.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
     <title>Registrasi</title>
@@ -77,8 +77,8 @@ if (isset($_POST["register"])){
             </form>
           </div>
           <div class="logo col-lg-6 text-center mt-5">
-            <img src="../assets/img/logoBorneo.png" alt="SVCC Borneo" class="img-fluid mb-3" style="width: 60%; margin-top: 15vh" />
-            <p>Already have an Account? Login <a href="login.html">here.</a></p>
+            <img src="../assets/img/logoBorneo.png" alt="SVCC Borneo" class="img-fluid mb-3" style="width: 60%; margin-top: 8vh" />
+            <p>Already have an Account? Login <a href="login.php">here.</a></p>
           </div>
         </div>
       </div>

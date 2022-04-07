@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #444444;
 }
 
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -79,7 +79,7 @@ h6 {
   line-height: 0;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 #header .logo h1 a,
 #header .logo h1 a:hover {
@@ -141,7 +141,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #000000;
   white-space: nowrap;
   transition: 0.3s;
@@ -305,7 +305,7 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #000000;
   font-weight: bold;
 }
@@ -324,7 +324,7 @@ section {
   position: relative;
 }
 .team::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -370,7 +370,7 @@ section {
   padding-bottom: 10px;
 }
 .team .member h4::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 50px;
@@ -407,7 +407,11 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url('../img/cta-bg.jpg') center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -420,7 +424,7 @@ section {
   color: #576971;
 }
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -477,7 +481,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #576971;
 }
 #footer .footer-top .social-links a {
@@ -546,12 +550,12 @@ section {
   border-radius: 4px;
   border: 1px solid #e3e7e9;
 }
-#footer .footer-top .footer-newsletter form input[type="email"] {
+#footer .footer-top .footer-newsletter form input[type='email'] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
 }
-#footer .footer-top .footer-newsletter form input[type="submit"] {
+#footer .footer-top .footer-newsletter form input[type='submit'] {
   position: absolute;
   top: -1px;
   right: -2px;
@@ -565,7 +569,7 @@ section {
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+#footer .footer-top .footer-newsletter form input[type='submit']:hover {
   background: #007ab7;
 }
 #footer .copyright {
